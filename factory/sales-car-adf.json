@@ -1,0 +1,9 @@
+{
+	"name": "sales-car-adf",
+	"location": "germanywestcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c050ee67-e437-4d8b-ae50-f11471bdde72",
+		"tenantId": "51ef35fc-1970-4501-b2ae-d08a522580fc"
+	}
+}
