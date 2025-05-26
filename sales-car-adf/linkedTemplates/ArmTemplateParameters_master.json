@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "sales-car-adf"
+		},
+		"Sales_sql_Sink_password": {
+			"value": ""
+		},
+		"ls_datalake_accountKey": {
+			"value": ""
+		},
+		"Sales_github_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"Sales_sql_Sink_properties_typeProperties_server": {
+			"value": "salescarserverade.database.windows.net"
+		},
+		"Sales_sql_Sink_properties_typeProperties_database": {
+			"value": "SalesCar_DB"
+		},
+		"Sales_sql_Sink_properties_typeProperties_userName": {
+			"value": "adminade"
+		},
+		"ls_datalake_properties_typeProperties_url": {
+			"value": "https://caraalesazureadelake.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
