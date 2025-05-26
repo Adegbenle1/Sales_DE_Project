@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "pl_incremental_sales",
 	"properties": {
 		"activities": [
 			{
@@ -87,7 +87,7 @@
 					"source": {
 						"type": "AzureSqlSource",
 						"sqlReaderQuery": {
-							"value": "SELECT * FROM sales_cars WHERE Date_ID > '@{activity('last_load').output.Value[0].last_load}' AND Date_ID <= '@{activity('current_load').output.value[0].max_date}'\n\n\n",
+							"value": "SELECT * FROM sales_cars \nWHERE Date_ID > '@{activity('last_load').output.firstRow.last_load}' \nAND Date_ID <= '@{activity('current_load').output.firstRow.max_date}'\n\n\n\n",
 							"type": "Expression"
 						},
 						"queryTimeout": "02:00:00",
