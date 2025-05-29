@@ -5,11 +5,17 @@
 		"factoryName": {
 			"value": "sales-car-adf"
 		},
+		"Car_Sales_Databrick_LinkedService_accessToken": {
+			"value": ""
+		},
 		"Sales_sql_Sink_password": {
 			"value": ""
 		},
 		"ls_datalake_accountKey": {
 			"value": ""
+		},
+		"Car_Sales_Databrick_LinkedService_properties_typeProperties_existingClusterId": {
+			"value": "0526-161607-rbkdspiw"
 		},
 		"Sales_github_properties_typeProperties_url": {
 			"value": "https://raw.githubusercontent.com/"
